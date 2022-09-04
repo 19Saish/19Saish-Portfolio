@@ -16,6 +16,7 @@ body {
 }
 
 #page {
+  background-image: url(images.user-2.jpg);
   position: relative;
   overflow-x: hidden;
   width: 100%;
