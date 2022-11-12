@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::selection {
   color: #fff;
-  background: #FF9000;
+  background: lightblue;
 }
 
 #fh5co-header,
@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: lightblue;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .info {
@@ -744,7 +744,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .work .desc span {
   display: block;
-  color: #999999;
+  color: #393D47;
   font-size: 14px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -789,17 +789,17 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 #fh5co-started .fh5co-heading h2 {
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-bottom: 20px !important;
 }
 #fh5co-started .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: rgba(20, 70 ,120, 0.7);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1290,6 +1290,14 @@ input[type="text"] {
 
 #contact1 {
   background-color: rgba(20, 70, 120, 0.7);
+}
+
+.col-md-offset-2 {
+  color: #000;
+}
+
+.contact {
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
